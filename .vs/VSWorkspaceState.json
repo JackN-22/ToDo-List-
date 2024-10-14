@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\API",
+    "\\API\\Entities",
+    "\\API\\Interfaces",
+    "\\API\\Services"
+  ],
+  "SelectedNode": "\\API\\Services\\TokenService.cs",
+  "PreviewInSolutionExplorer": false
+}

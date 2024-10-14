@@ -1,0 +1,29 @@
+<div *ngIf="!isLoggedIn" class="main-container">
+    <div class="image-left">
+        <img src="/todolist.jpg" alt="">
+    </div>
+    <div class="login-form">
+        <h1>Sign In</h1>
+        <form #loginForm="ngForm" (ngSubmit)="login()" autocomplete="off">
+            <label for="username">Username</label>
+            <input 
+                [(ngModel)]="model.username"
+                name="username"
+                placeholder="Enter your username" 
+                required
+            >
+            <label for="password">Password</label>
+            <input 
+                [(ngModel)]="model.password"
+                name="password"
+                placeholder="Enter your password" 
+                type="password"
+                required
+            >
+            <button type="submit" class="admin-login-btn">Sign In</button>
+        </form>
+        <div class="register-link">
+           <p>Not a member?<a routerLink="/register"><span class="span-signup"> Sign Up</span></a>
+        </div>
+    </div>
+</div>

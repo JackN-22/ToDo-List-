@@ -1,0 +1,52 @@
+<div class="tabs">
+  <button (click)="setActiveTab('all')" [class.active]="activeTab === 'all'" class="btn btn-light">All Tasks</button>
+  <button (click)="setActiveTab('completed')" [class.active]="activeTab === 'completed'" class="btn btn-light">Completed Tasks</button>
+  <button (click)="setActiveTab('incomplete')" [class.active]="activeTab === 'incomplete'" class="btn btn-light">Incomplete Tasks</button>  
+</div>
+
+<div class="task-container"> <!-- Improved container for task cards -->
+  <div *ngFor="let item of filteredTasks()">
+      <div class="task-card"> <!-- Clean task card -->
+          <h3 [class.completed]="item.dateCompleted">{{ item.name }}</h3>      
+          <p>Due: {{ item.dueDate | timeago }}</p>
+          <p *ngIf="item.dateCompleted">Completed: {{ item.dateCompleted | timeago }}</p>
+      
+          <svg *ngIf="!item.dateCompleted" (click)="completeItem(item.todoItemId)" style="fill: green;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" aria-label="Completed" role="img">
+              <path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/>
+          </svg>
+          
+          <svg (click)="openDeleteModal(item.todoItemId, deleteModal)" style="fill: red; cursor: pointer;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" aria-label="Delete" role="img">
+              <path d="M135.2 17.7L128 32 32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l384 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0-7.2-14.3C307.4 6.8 296.3 0 284.2 0L163.8 0c-12.1 0-23.2 6.8-28.6 17.7zM416 128L32 128 53.2 467c1.6 25.3 22.6 45 47.9 45l245.8 0c25.3 0 46.3-19.7 47.9-45L416 128z"/>
+          </svg>
+      </div>
+  </div>
+</div>
+
+
+  
+  <!-- Bootstrap Modal -->
+
+  <!-- deleteModal is used within the (click) for SVG delete Icon -->
+  <ng-template #deleteModal let-modal>
+    <div class="modal-header" style="background-color: var(--item-background-color);">
+      <h5 class="modal-title">Delete Confirmation</h5>
+      <button type="button" class="btn-close" aria-label="Close" (click)="declineDelete()" style="color: var(--button-background-color);"></button>
+    </div>
+    <div class="modal-body" style="background-color: var(--item-background-color);">
+      Are you sure you want to delete this item?
+    </div>
+    <div class="modal-footer" style="background-color: var(--item-background-color);">
+      <button type="button" class="btn btn-secondary" 
+              (click)="declineDelete()" 
+              style="background-color: var(--button-background-color); border-color: var(--button-background-color); color: white;">
+        Cancel
+      </button>
+      <button type="button" class="btn btn-danger" 
+              (click)="confirmDelete()" 
+              style="background-color: var(--button-hover-color); border-color: var(--button-hover-color); color: white;">
+        Delete
+      </button>
+    </div>
+  </ng-template>
+  
+  

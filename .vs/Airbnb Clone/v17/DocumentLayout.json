@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Development\\Desktop\\Airbnb Clone\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D167D831-0A33-4C21-B854-F73EBF394552}|API\\API.csproj|c:\\users\\development\\desktop\\airbnb clone\\api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D167D831-0A33-4C21-B854-F73EBF394552}|API\\API.csproj|solutionrelative:api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D167D831-0A33-4C21-B854-F73EBF394552}|API\\API.csproj|c:\\users\\development\\desktop\\airbnb clone\\api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D167D831-0A33-4C21-B854-F73EBF394552}|API\\API.csproj|solutionrelative:api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D167D831-0A33-4C21-B854-F73EBF394552}|API\\API.csproj|c:\\users\\development\\desktop\\airbnb clone\\api\\entities\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D167D831-0A33-4C21-B854-F73EBF394552}|API\\API.csproj|solutionrelative:api\\entities\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D167D831-0A33-4C21-B854-F73EBF394552}|API\\API.csproj|c:\\users\\development\\desktop\\airbnb clone\\api\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D167D831-0A33-4C21-B854-F73EBF394552}|API\\API.csproj|solutionrelative:api\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D167D831-0A33-4C21-B854-F73EBF394552}|API\\API.csproj|c:\\users\\development\\desktop\\airbnb clone\\api\\helpers\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D167D831-0A33-4C21-B854-F73EBF394552}|API\\API.csproj|solutionrelative:api\\helpers\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D167D831-0A33-4C21-B854-F73EBF394552}|API\\API.csproj|c:\\users\\development\\desktop\\airbnb clone\\api\\data\\todoitemrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D167D831-0A33-4C21-B854-F73EBF394552}|API\\API.csproj|solutionrelative:api\\data\\todoitemrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D167D831-0A33-4C21-B854-F73EBF394552}|API\\API.csproj|c:\\users\\development\\desktop\\airbnb clone\\api\\dtos\\todoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D167D831-0A33-4C21-B854-F73EBF394552}|API\\API.csproj|solutionrelative:api\\dtos\\todoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D167D831-0A33-4C21-B854-F73EBF394552}|API\\API.csproj|c:\\users\\development\\desktop\\airbnb clone\\api\\interfaces\\itodoitemrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D167D831-0A33-4C21-B854-F73EBF394552}|API\\API.csproj|solutionrelative:api\\interfaces\\itodoitemrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Development\\Desktop\\Airbnb Clone\\API\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "API\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\Development\\Desktop\\Airbnb Clone\\API\\DTOs\\RegisterDto.cs*",
+              "RelativeToolTip": "API\\DTOs\\RegisterDto.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T19:23:51.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITodoItemRepositary.cs",
+              "DocumentMoniker": "C:\\Users\\Development\\Desktop\\Airbnb Clone\\API\\Interfaces\\ITodoItemRepositary.cs",
+              "RelativeDocumentMoniker": "API\\Interfaces\\ITodoItemRepositary.cs",
+              "ToolTip": "C:\\Users\\Development\\Desktop\\Airbnb Clone\\API\\Interfaces\\ITodoItemRepositary.cs",
+              "RelativeToolTip": "API\\Interfaces\\ITodoItemRepositary.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:01:22.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ToDoItem.cs",
+              "DocumentMoniker": "C:\\Users\\Development\\Desktop\\Airbnb Clone\\API\\Entities\\ToDoItem.cs",
+              "RelativeDocumentMoniker": "API\\Entities\\ToDoItem.cs",
+              "ToolTip": "C:\\Users\\Development\\Desktop\\Airbnb Clone\\API\\Entities\\ToDoItem.cs",
+              "RelativeToolTip": "API\\Entities\\ToDoItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:48:53.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Development\\Desktop\\Airbnb Clone\\API\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "API\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Development\\Desktop\\Airbnb Clone\\API\\Entities\\User.cs",
+              "RelativeToolTip": "API\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:43:19.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AutoMapperProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\Development\\Desktop\\Airbnb Clone\\API\\Helpers\\AutoMapperProfiles.cs",
+              "RelativeDocumentMoniker": "API\\Helpers\\AutoMapperProfiles.cs",
+              "ToolTip": "C:\\Users\\Development\\Desktop\\Airbnb Clone\\API\\Helpers\\AutoMapperProfiles.cs",
+              "RelativeToolTip": "API\\Helpers\\AutoMapperProfiles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:31:22.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TodoItemRepositary.cs",
+              "DocumentMoniker": "C:\\Users\\Development\\Desktop\\Airbnb Clone\\API\\Data\\TodoItemRepositary.cs",
+              "RelativeDocumentMoniker": "API\\Data\\TodoItemRepositary.cs",
+              "ToolTip": "C:\\Users\\Development\\Desktop\\Airbnb Clone\\API\\Data\\TodoItemRepositary.cs",
+              "RelativeToolTip": "API\\Data\\TodoItemRepositary.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:01:34.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ToDoItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\Development\\Desktop\\Airbnb Clone\\API\\DTOs\\ToDoItemDto.cs",
+              "RelativeDocumentMoniker": "API\\DTOs\\ToDoItemDto.cs",
+              "ToolTip": "C:\\Users\\Development\\Desktop\\Airbnb Clone\\API\\DTOs\\ToDoItemDto.cs",
+              "RelativeToolTip": "API\\DTOs\\ToDoItemDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T19:54:59.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Development\\Desktop\\Airbnb Clone\\API\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Development\\Desktop\\Airbnb Clone\\API\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "API\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T19:53:24.815Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

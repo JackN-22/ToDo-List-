@@ -1,0 +1,30 @@
+<div class="main-container">
+    <div class="login-form">
+        <h1>Register</h1>
+        <form #registerForm="ngForm" (ngSubmit)="register()">
+            <label for="username">Username</label>
+            <input 
+                [(ngModel)]="model.username"
+                name="username"
+                placeholder="Enter a username" 
+                required
+            >
+            <label for="email">Known As</label>
+            <input 
+                [(ngModel)]="model.knownas"
+                name="username"
+                placeholder="Enter your email" 
+                required
+            >
+            <label for="password">Password</label>
+            <input 
+                [(ngModel)]="model.password"
+                name="password"
+                placeholder="Enter a password" 
+                type="password"
+                required
+            >
+            <button type="submit" class="admin-login-btn">Register</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'ngx-toastr/toastr';
+/* src/styles.css or src/styles.scss */
+@import 'mdb-angular-ui-kit/assets/scss/mdb.scss';
+
+
+* {
+    font-family: "Rubik", sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+:root {
+    --button-background-color: #4682B4;
+    --button-hover-color: #DAA520;
+    --item-background-color: #F4F4F4;
+}
+
+nav {
+    background-color: #333333  ;
+}
+
+
+.toast {
+    opacity: 1 !important;  /* Fully opaque */
+  }
+
+  .toast-success {
+    background-color: green;
+  }
+
+  svg:hover {
+    opacity: 0.5;
+  }
+

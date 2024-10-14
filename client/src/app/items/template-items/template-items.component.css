@@ -1,0 +1,78 @@
+/* Container for task cards with a defined height and better aesthetics */
+.task-container {
+  max-height: 500px; /* Set maximum height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 20px; /* Add padding around the container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  margin: 15px auto; /* Center the container */
+  width: 90%; /* Set width for the container */
+}
+
+/* Task card styles */
+.task-card {
+  background-color: whitesmoke;
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px; /* Padding inside the card */
+  margin-bottom: 15px; /* Space between cards */
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for card elevation */
+  transition: box-shadow 0.2s; /* Transition for hover effect */
+}
+
+/* Hover effect for task cards */
+.task-card:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+/* Remove arrows in Webkit browsers */
+.task-container::-webkit-scrollbar-button {
+  display: none; /* Hide the buttons (arrows) */
+}
+
+/* Custom scrollbar for webkit browsers (Chrome, Safari, Edge) */
+.task-container::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+.task-container::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scrollbar track */
+  border-radius: 10px; /* Rounded corners for track */
+}
+
+.task-container::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for thumb */
+}
+
+/* Icon styles */
+svg {
+  height: 25px;
+  margin: 5px; /* Less margin for icons */
+  cursor: pointer;
+  transition: transform 0.2s; /* Transition for hover effect */
+}
+
+/* Icon hover effects */
+svg:hover {
+  transform: scale(1.1); /* Slightly enlarge icons on hover */
+}
+
+/* Tabs styles */
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px 0; /* Adjust margin for better spacing */
+}
+
+.tabs > button {
+  background-color: var(--button-background-color);
+  color: whitesmoke;
+  border-radius: 5px; /* Rounded corners for buttons */
+  padding: 10px 15px; /* Padding for buttons */
+  transition: background-color 0.3s; /* Transition for button hover */
+}
+
+.tabs > button:hover {
+  background-color: var(--button-hover-color); /* Change on hover */
+}

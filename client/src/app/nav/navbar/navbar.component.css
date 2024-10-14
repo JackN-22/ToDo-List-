@@ -1,0 +1,15 @@
+button {
+    background-color: #4682B4 ;
+    box-shadow: none;
+    color: whitesmoke;
+}
+
+button:hover {
+    background-color: #DAA520;
+    box-shadow: none;
+}
+
+h4 {
+    color: whitesmoke;
+    text-align: center;
+}

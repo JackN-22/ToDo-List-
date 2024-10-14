@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\DTOs",
+    "\\Entities",
+    "\\Extensions",
+    "\\Helpers",
+    "\\Services"
+  ],
+  "SelectedNode": "\\DTOs\\ToDoItemDto.cs",
+  "PreviewInSolutionExplorer": false
+}
